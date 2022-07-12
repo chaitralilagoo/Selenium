@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="zerodha.pom.TestLoginPage"/>
+      <class name="pom.testng.TestFacebookLoginPage"/>
+      <class name="pom.testng.TestFaceBookCreateNewAccPage"/>
+      <class name="testng.TestAnnotation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
